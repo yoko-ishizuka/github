@@ -1,6 +1,699 @@
-フレックスボックス
-iframe
+body{cursor:url(../img/cutter.png),auto}
+.ue{
+  /* background-color: #aaa; */
+  height: 100px;
+  width: 1300px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  /* background-color: orange; */
+  width: 650px;
+  margin:0 auto;
+  display: flex;
+  justify-content:space-between;
+}
+.menu{
+  /* background-color: #eee; */
+  width: 650px;
+  margin:0 auto;
+  display: flex;
+  justify-content:space-around; 
+}
 
-フォーム　css
-フォーム　カスタマイズ
-フォーム　レイアウト
+.about{
+  /* background-color: pink; */
+  font-size: 20px;
+  padding-top:35px;
+}
+.course{
+  /* background-color: pink; */
+  font-size: 20px;
+  padding-top:35px;
+}
+.news{
+  /* background-color: pink; */
+  font-size: 20px;
+  padding-top:35px;
+}
+.access{
+  /* background-color: pink; */
+  font-size: 20px;
+  padding-top:35px;
+}
+.contact{
+  /* background-color: pink; */
+  font-size: 20px;
+  padding-top:35px;
+}
+.pic{
+  background-image: url("../img/mainbg.png");
+  /* background-color: blue; */
+  width: 1300px;
+  margin:0 auto;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pic h1{
+  font-size: 50px;
+  color:white;
+  text-align: center;
+  padding-top: 130px;
+  display: none;
+  text-shadow:2px 2px 3px #1B3D82;
+}
+.pic p{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  padding-top: 30px;
+  text-shadow:2px 2px 3px #1B3D82;
+}
+.setsu{
+  /* background-color: red; */
+  height: 400px;
+  width: 1300px;
+  margin:0 auto;
+}
+.setsu h1{
+  font-size: 30px;
+  color:gold;
+  font-weight: 900;
+  text-align: center;
+  line-height: 60px;
+}
+.setsu h2{
+  text-align: center;
+  line-height: 30px;
+}
+.setsu h3{
+  text-align: center;
+  line-height: 60px;
+}
+.setsu p{
+  text-align: center;
+}
+.setsu h4{
+  text-align: center;
+  line-height: 80px;
+}
+
+.pic4{
+  /* background-color:black; */
+  width: 1300px;
+  margin:0 auto;
+  height: 255px;
+  display: flex;
+  justify-content: space-between;
+}
+/* サンプル動画 */
+.cp_cssslider {
+	width: 450px;
+	height: 250px;
+	overflow: hidden;
+	margin: 2em auto;
+	border: 10px solid #ffffff;
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.cp_slide_item {
+	width: 400px;
+	height: 200px;
+	float: left;
+	position: relative;
+}
+.cp_slidewrapper {
+	width: 400%;/* slideの枚数×100% */
+	position: relative;
+	left: 0;
+	animation: slider 20s infinite ease;/* スピード */
+}
+@-webkit-keyframes slider {
+	/* 100%を枚数で割った%に割り振る */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	25% {
+	-webkit-transform: translateX(-400px);
+	transform: translateX(-400px);
+	}
+	50% {
+	-webkit-transform: translateX(-800px);
+	transform: translateX(-800px);
+	}
+	75% {
+	-webkit-transform: translateX(-1200px);
+	transform: translateX(-1200px);
+	}
+100% {
+	-webkit-transform: translateX(-0px);
+	transform: translateX(-0px);
+	}
+	/* 100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0); */
+	}
+}
+@keyframes slider {
+	/* 100%を枚数で割った%に割り振る */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	25% {
+	-webkit-transform: translateX(-400px);
+	transform: translateX(-400px);
+	}
+	50% {
+	-webkit-transform: translateX(-800px);
+	transform: translateX(-800px);
+	}
+	75% {
+	-webkit-transform: translateX(-1200px);
+	transform: translateX(-1200px);
+	}
+	100% {
+	-webkit-transform: translateX(-0px);
+	transform: translateX(-0px);
+	}
+	/* 100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0); */
+	}
+}
+
+.pic02{
+  color: #fff;
+  width: 330px;
+  margin:0 auto;
+  height:255px;
+}
+.pic02 img{
+  width: 100%;
+  height: 255px;
+  object-fit: cover;
+}
+
+.course1{
+  height: 200px;
+  width: 1300px;
+  margin:0 auto;
+}
+.course1 h1{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  line-height: 60px;
+  color:gold;
+  font-weight: 900;
+  
+}
+.course1 p{
+  text-align: center;
+  line-height: 30px;
+}
+/* 写真と説明 */
+.picsetu{
+  /* background-color:palevioletred; */
+  height: 400px;
+  width: 1300px;
+  margin:0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.picsetu01{
+  /* background-color:salmon; */
+  width: 650px;
+  margin:0 auto;
+  height: 400px;
+}
+.picsetu01 img{
+  width: 100%;
+  object-fit: cover;
+}
+.picsetu02{
+  background-color:#eee;
+  width: 650px;
+  margin:0 auto;
+  height: 400px;
+}
+.picsetu02 h1{
+  font-size: 20px;
+  text-align: left;
+  padding-top: 110px;
+  padding-left: 50px;
+}
+.picsetu02 p{
+  font-size: 13px;
+  padding-left: 50px;
+  padding-right: 150px;
+  padding-top: 40px;
+  line-height: 30px;
+}
+.picsetu2{
+  background-color:black;
+  height: 400px;
+  width: 1300px;
+  margin:0 auto;
+  display: flex;
+  justify-content:flex-end;
+}
+.picsetu2_1{
+  background-color:#eee;
+  width: 650px;
+  margin:0 auto;
+  height: 400px;
+}
+.picsetu2_1 h1{
+  font-size: 20px;
+  text-align: right;
+  padding-top: 110px;
+  padding-right: 240px;
+}
+.picsetu2_1 p{
+  font-size: 13px;
+  padding-right: 50px;
+  padding-left: 150px;
+  padding-top: 40px;
+  line-height: 30px;
+}
+.picsetu2_2{
+  background-color:blueviolet;
+  width: 650px;
+  margin:0 auto;
+  height: 400px;
+}
+.picsetu2_2 img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.picsetu3{
+  background-color:palegreen;
+  height: 400px;
+  width: 1300px;
+  margin:0 auto;
+  display: flex;
+  justify-content:flex-end;
+}
+.picsetu3_1{
+  background-color:peru;
+  height: 400px;
+  width: 650px;
+  margin:0 auto;
+}
+.picsetu3_1 img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.picsetu3_2{
+  background-color:#eee;
+  width: 650px;
+  margin:0 auto;
+  height: 400px;
+}
+.picsetu3_2 h1{
+  font-size: 20px;
+  text-align: left;
+  padding-top: 110px;
+  padding-left: 50px;
+}
+.picsetu3_2 p{
+  font-size: 13px;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 150px;
+  line-height: 30px;
+}
+.youtube{
+  padding-top: 40px;
+  width: 1300px;
+  margin:0 auto;
+  text-align: center;
+}
+/* ニュース*/
+.nnn{
+  /* background-color:crimson; */
+  height: 100px;
+  width: 1300px;
+  margin:0 auto;
+}
+.nnn h1{
+  text-align: center;
+  color: gold;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 30px;
+  margin-top: 60px;
+}
+.nnn p{
+  text-align: center;
+  font-size: 15px;
+  line-height: 50px;
+}
+/* 写真３まい */
+.sha{
+  /* background-color:chartreuse; */
+  height: 300px;
+  width: 960px;
+  margin:0 auto;
+  display: flex;
+  justify-content:space-around;
+  margin-bottom: 20px;
+}
+.sha1{
+  /* background-color:darkolivegreen; */
+  height: 300px;
+  width: 300px;
+  margin:0 auto;
+  margin-bottom: 20px;
+}
+.sha1:hover{
+  color: blue; /* 文字色を変える */
+  /* background-color:#eee; 背景色を変える */
+}
+.sha1 p{
+  text-align: center;
+}
+.sha1 img:hover {
+  opacity: 0.5;
+}
+
+.more{
+  margin-top: 30px;
+  background-color:gold;
+  width: 300px;
+  margin:0 auto;
+  height: 60px;
+  margin-bottom: 20px;
+  text-decoration：none;
+}
+.more:hover{
+  color:black; /* 文字色を白にする */
+  background-color: #c9c9c9; /* 背景色をグレー（#c9c9c9）にする */
+  text-decoration:none; /* リンクに出てくる下線を無効にする*/    
+}
+.more h2{
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+}
+.ac{
+  background-color:#eee;
+  width: 1300px;
+  margin:0 auto;
+  height: 500px;
+}
+.acac h1{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+  color: gold;
+  font-weight: 900;
+}
+.acac p{
+  text-align: center;
+  line-height: 60px;
+}
+.chizu{
+  width:1300px;
+  margin:0 auto;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  /* background-color:red; */
+}
+.chizu img{
+  width:auto;
+  height: 300px;
+  object-fit: cover;
+}
+/* .chizusetu{
+  background-color: blanchedalmond;
+} */
+.chizusetu h2{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.chizu p{
+  padding-top: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+/* SNS */
+.sosyal {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+.facebook {
+  background-color: #2e4a88;
+  box-shadow: 0 4px 0 #1B3D82;
+  text-shadow: 0 -1px -1px #1B3D82;
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 7px 50px;
+}
+.facebook:hover {
+  background-color: #354F84;
+}
+.facebook:active {
+  top: 2px;
+	box-shadow: 0 2px 0 #1B3D82;
+}
+.twitter {
+  background-color: #008DDE;
+  box-shadow: 0 4px 0 #0078BD;
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 7px 50px;
+}
+.twitter:active {
+  top: 2px;
+	box-shadow: 0 2px 0 #0078BD;
+}
+.twitter:hover {
+  background-color: #1397D8;
+}
+.contact1 h1{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 80px;
+  color: gold;
+  font-weight: 900;
+}
+.contact1 h2{
+  text-align: center;
+  line-height: 40px;
+}
+.contact1 h3{
+  text-align: center;
+  padding-top: 30px;
+}
+.contact1 p{
+  text-align: center;
+  line-height: 20px;
+}
+.hyou{
+  width: 500px;
+  margin:0 auto;
+  /* background-color:palegoldenrod; */
+}
+table{
+  text-align: center;
+}
+th{
+  /* background-color: red; */
+  border-bottom:black 1px solid;
+  border-top:black 1px solid;
+  /* padding:10px; */
+  /* height: 30px; */
+  width: 200px;
+}
+td{
+  /* background-color: pink; */
+  border-bottom:black 1px solid;
+  border-left:black 1px solid;
+  border-top:black 1px solid;
+  /* height: 30px; */
+  width: 270px;
+}
+.cp_iptxt {
+	position: relative;
+	width: 90%;
+	margin: 15px 3%;
+}
+.cp_iptxt input[type='text'] {
+	font: 10px/20px sans-serif;
+	/* box-sizing: border-box; */
+	width: 100%;
+	/* padding: 0.3em; */
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: black;
+	border: 1px solid gray;
+	border-radius: 4px;
+}
+.ef input[type='text']:focus {
+	border: 1px solid gold;
+	outline: none;
+	box-shadow: 0 0 5px 1px yellow (218,60,65, .5);
+}
+.cp_ipselect {
+	overflow: hidden;
+	width: 90%;
+	margin: 2em auto;
+	text-align: center;
+}
+/* ここかチェックボックス */
+.cp_ipselect select {
+	width: 100%;
+	padding-right: 1em;
+	cursor: pointer;
+	text-indent: 0.01px;
+	text-overflow: ellipsis;
+	border: none;
+	outline: none;
+	background: transparent;
+	background-image: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+.cp_ipselect select::-ms-expand {
+    display: none;
+}
+.cp_ipselect.cp_sl01 {
+	/* position: relative; */
+	border: 1px solid #bbbbbb;
+	border-radius: 2px;
+  background: #ffffff;
+  height: 30px;
+}
+.cp_ipselect.cp_sl01::before {
+	position: absolute;
+	top: 0.8em;
+	right: 0.9em;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 3px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #666666;
+	pointer-events: none;
+}
+.cp_ipselect.cp_sl01 select {
+	padding: 8px 38px 8px 8px;
+  color: #666666;
+}
+.cp_ipcheck {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.cp_ipcheck:before, .cp_ipcheck:after {
+	-webkit-box-sizing: inherit;
+	        box-sizing: inherit;
+}
+.cp_ipcheck .box {
+	width: 90%;
+	/* margin: 2em auto; */
+	text-align: left;
+	border: 1px solid white;
+	border-radius: 3px;
+	background: #ffffff;
+}
+.cp_ipcheck input[type=checkbox] {
+	display: none;
+}
+.cp_ipcheck label:focus,
+.cp_ipcheck label:hover,
+.cp_ipcheck label:active,
+.cp_ipcheck input:checked + label {
+	color:gold;
+}
+.cp_ipcheck label:focus:before,
+.cp_ipcheck label:hover:before,
+.cp_ipcheck label:active:before,
+.cp_ipcheck input:checked + label:before {
+	border-color:gold;
+	background: #ffffff;
+}
+.cp_ipcheck label {
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	padding: 1em 0em 0.3em 3em;
+	cursor: pointer;
+	-webkit-transition: all 0.15s ease;
+	        transition: all 0.15s ease;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	background: #ffffff;
+}
+.cp_ipcheck label:before {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	width: 10px;
+	height: 10px;
+	content: '';
+	border: 0.2em solid #cccccc;
+}
+.cp_ipcheck input:checked + label:before {
+	border-color: gold;
+	background: gold;
+}
+.soshin{
+  width: 300px;
+  margin:0 auto;
+  height: 60px;
+  background-color:gold;
+  margin-top: 20px;
+}
+.soshin:hover{
+  color: #000; /* 文字色を白にする */
+  background-color: #c9c9c9; /* 背景色をグレー（#c9c9c9）にする */
+  text-decoration: none; /* リンクに出てくる下線を無効にする*/    
+}
+.soshin h1{
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+}
+.copy{
+  width: 1300px;
+  margin:0 auto;
+  height: 50px;
+  background-color: #707070;
+  margin-top: 30px;
+}
+.copy p{
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
