@@ -1,27 +1,2 @@
 初めてのgithub
 gitは難しい！
-
-
-<div class="wrap">
-<header id="header">
-
-
-  
-</header>
-<!-- /#header-->
-
-<div class="mainvisual">
-
-</div>
-<!-- /.mainvisual-->
-
-<div class="content">
-
-
-</div>
-<!-- /.content-->
-
-<div id="footer">
-
-</div>
-<!-- /#footer-->
