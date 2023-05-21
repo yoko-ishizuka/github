@@ -59,7 +59,7 @@ body{cursor:url(../img/cutter.png),auto}
   background-position: center;
 }
 .pic h1{
-  font-size: 50px;
+  font-size: 30px;
   color:white;
   text-align: center;
   padding-top: 130px;
@@ -67,7 +67,7 @@ body{cursor:url(../img/cutter.png),auto}
   text-shadow:2px 2px 3px #1B3D82;
 }
 .pic p{
-  font-size: 20px;
+  font-size: 30px;
   color: white;
   text-align: center;
   line-height: 60px;
@@ -88,15 +88,18 @@ body{cursor:url(../img/cutter.png),auto}
   line-height: 60px;
 }
 .setsu h2{
+  font-size:18px;
   text-align: center;
   line-height: 30px;
 }
 .setsu h3{
+  font-size:16px;  
   text-align: center;
   line-height: 60px;
 }
 .setsu p{
   text-align: center;
+  line-height: 40px;
 }
 .setsu h4{
   text-align: center;
@@ -158,7 +161,7 @@ body{cursor:url(../img/cutter.png),auto}
 	-webkit-transform: translateX(0);
 	transform: translateX(0); */
 	}
-}
+
 @keyframes slider {
 	/* 100%を枚数で割った%に割り振る */
 	0% {
@@ -185,7 +188,6 @@ body{cursor:url(../img/cutter.png),auto}
 	-webkit-transform: translateX(0);
 	transform: translateX(0); */
 	}
-}
 
 .pic02{
   color: #fff;
@@ -245,7 +247,7 @@ body{cursor:url(../img/cutter.png),auto}
 .picsetu02 h1{
   font-size: 20px;
   text-align: left;
-  padding-top: 110px;
+  padding-top: 120px;
   padding-left: 50px;
 }
 .picsetu02 p{
@@ -392,7 +394,7 @@ body{cursor:url(../img/cutter.png),auto}
   margin:0 auto;
   height: 60px;
   margin-bottom: 20px;
-  text-decoration：none;
+  text-decoration:none;
 }
 .more:hover{
   color:black; /* 文字色を白にする */
@@ -444,59 +446,15 @@ body{cursor:url(../img/cutter.png),auto}
   padding-top: 10px;
 }
 .chizu p{
-  padding-top: 20px;
+  padding-top: 30px;
   text-align: center;
-  line-height: 40px;
+  line-height: 50px;
 }
-/* SNS */
-.sosyal {
-  margin: 10px auto;
-  display: flex;
-  justify-content: center;
-}
-.facebook {
-  background-color: #2e4a88;
-  box-shadow: 0 4px 0 #1B3D82;
-  text-shadow: 0 -1px -1px #1B3D82;
-  display: inline;
-  position: relative;
-  font-family: Arial;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  border-radius: 5px;
-  padding: 7px 50px;
-}
-.facebook:hover {
-  background-color: #354F84;
-}
-.facebook:active {
-  top: 2px;
-	box-shadow: 0 2px 0 #1B3D82;
-}
-.twitter {
-  background-color: #008DDE;
-  box-shadow: 0 4px 0 #0078BD;
-  display: inline;
-  position: relative;
-  font-family: Arial;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  border-radius: 5px;
-  padding: 7px 50px;
-}
-.twitter:active {
-  top: 2px;
-	box-shadow: 0 2px 0 #0078BD;
-}
-.twitter:hover {
-  background-color: #1397D8;
-}
+
+
+
+
+
 .contact1 h1{
   text-align: center;
   font-size: 30px;
@@ -517,7 +475,7 @@ body{cursor:url(../img/cutter.png),auto}
   line-height: 20px;
 }
 .hyou{
-  width: 400px;
+  width: 240px;
   margin:0 auto;
   /* background-color:palegoldenrod; */
 }
@@ -530,7 +488,7 @@ th{
   border-top:black 1px solid;
   /* padding:10px; */
   /* height: 30px; */
-  width: 240px;
+  width: 200px;
 }
 td{
   /* background-color: pink; */
@@ -538,7 +496,7 @@ td{
   border-left:black 1px solid;
   border-top:black 1px solid;
   /* height: 30px; */
-  width: 240px;
+  width: 270px;
 }
 .cp_iptxt {
 	position: relative;
@@ -684,17 +642,17 @@ td{
 .soshin h1{
   text-align: center;
   color: #fff;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .copy{
   width: 1300px;
   margin:0 auto;
-  height: 30px;
+  height: 50px;
   background-color: #707070;
   margin-top: 30px;
 }
 .copy p{
   color: white;
   text-align: center;
-  padding-top: 140px;
+  padding-top: 15px;
 }

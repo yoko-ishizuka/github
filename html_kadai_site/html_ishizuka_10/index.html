@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
 <!-- 最初の設定は終わっています　必要な方は触ってください -->
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +10,10 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <!-- 最初の設定は終わっています　必要な方は触ってください -->
-
 <body>
   <!-- この中に記述していく -->
   <!-- ここから下にコードを書く -->
-
-  <!-- ここから上にコードを書く -->
-  <!-- この中に記述していく -->
+  <header id="header">
   <div class="ue" style="text-transform: uppercase;"> 
     <div class="title">
       <img src="./img/header_logo.png" alt="">
@@ -40,6 +36,7 @@
       </div>
     </div>
   </div>
+  </header>
     <div class="pic">
       <h1 style="display: block; font-size: 30px;">
         セカイを変えるチーズを作ろう
@@ -66,13 +63,13 @@
     </div>
     <div class="pic4">
       <div class="pic02">
-        <img src="./img/about_02.jpg" alt="">
+        <img src="./img/about_04.jpg" alt="">
       </div>
       <div class="pic02">
       <img src="./img/about_03.jpg" alt="">
       </div>
       <div class="pic02">
-        <img src="./img/about_04.jpg" alt="">
+        <img src="./img/about_02.jpg" alt="">
       </div>
       <div class="pic02">
         <img src="./img/about_01.jpg" alt="">
@@ -80,9 +77,9 @@
     </div>
     <div class="cp_cssslider">
       <div class="cp_slidewrapper">
-        <div class="cp_slide_item"><img src="./img/about_02.jpg"></div>
-        <div class="cp_slide_item"><img src="./img/about_03.jpg"></div>
         <div class="cp_slide_item"><img src="./img/about_04.jpg"></div>
+        <div class="cp_slide_item"><img src="./img/about_03.jpg"></div>
+        <div class="cp_slide_item"><img src="./img/about_02.jpg"></div>
         <div class="cp_slide_item"><img src="./img/about_01.jpg"></div>
       </div>
     </div>
@@ -133,39 +130,40 @@
         </p>
         </div>
     </div>
-    <div class="youtube">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/4dK3A0Hnodc" 
-      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-    </div> 
+  
+    
 <div class="nnn" style="text-transform: uppercase;">
     <h1>
         <a name="news"></a>
-        "news"
+        news
     </h1>
     <p>ニュース</p>
   </div>
   <div class="sha">
     <div class="sha1"><a href="https://www.dominos.jp/" target="_blank" style="text-decoration:none;">
       <img src="img/news_img.jpg" alt="">
-      <p>2016/11/18
+      <h1>2016/11/18</h1>
+      <p>
         チーズアカデミー卒業生のコスゲさんによる
         チーズだけをふんだんに使用した話題のピザ屋
         「Kosuge Pizza」が渋谷でオープンしました！</p>
     </a></div>
-    <div class="sha1">
+    <div class="sha1"><a href="https://www.dominos.jp/" target="_blank" style="text-decoration:none;">
       <img src="img/news_img.jpg" alt="">
-      <p>2016/11/18
+      <h1>2016/11/18</h1>
+      <p>
         チーズアカデミー卒業生のコスゲさんによる
         チーズだけをふんだんに使用した話題のピザ屋
         「Kosuge Pizza」が渋谷でオープンしました！</p>
-    </div>
-    <div class="sha1">
+    </a></div>
+    <div class="sha1"><a href="https://www.dominos.jp/" target="_blank" style="text-decoration:none;">
       <img src="img/news_img.jpg" alt="">
-      <p>2016/11/18
+      <h1>2016/11/18</h1>
+      <p>
         チーズアカデミー卒業生のコスゲさんによる
         チーズだけをふんだんに使用した話題のピザ屋
         「Kosuge Pizza」が渋谷でオープンしました！</p>
-  </div> 
+      </a></div> 
   </div>
   <div class="more" style="text-transform: uppercase;">
     <a href="https://gsacademy.tokyo/" target="_blank" style="text-decoration:none;">
@@ -177,6 +175,15 @@
     <h1><a name="access"></a>ACCESS</h1>
     <p>会社情報</p>
     </div>
+    
+    
+    
+    
+    <iframe src="" frameborder="0"></iframe>
+
+
+
+
     <div class="chizu">
       <div class="chizusha"><img src="./img/chizu.png" alt="">
       </div>
@@ -187,8 +194,7 @@
       <p>FAX 03-5413-5046</p>
       <p>MAIL dummy@cheeseacademy.tokyo</p>
         <div class="sosyal" style="text-transform: capitalize;">
-          <a href="https://www.facebook.com/pages/ジーズアカデミー-TOKYO/747508788918086" target="_blank" class="facebook">Facebook</a>
-          <a href="https://twitter.com/gsacademy_tokyo" target="_blank" class="twitter">Twitter</a>
+  
         </div>
       </div>
     </div>
@@ -206,7 +212,8 @@
 
   <div class="hyou">
     <table>
-      <tbody><tr>
+      <tbody>
+        <tr>
         <th>名前</th> 
       <td> 
           <div class="cp_iptxt">
@@ -243,11 +250,11 @@
             <div class="cp_ipselect cp_sl01">
                 <select required="">
                   <option value="" hidden="">選択して下さい</option>
-                  <option value="1">google選択</option>
-                  <option value="2">SNS</option>
-                  <option value="3">紹介</option>
-                  <option value="4">たまたま通りかかった</option>
-                  <option value="5">その他</option>
+                  <option value="1">･google選択</option>
+                  <option value="2">･SNS</option>
+                  <option value="3">･紹介</option>
+                  <option value="4">･たまたま通りかかった</option>
+                  <option value="5">･その他</option>
                 </select>
                 </div>
         </td>
@@ -256,7 +263,7 @@
         <th>志望動機</th> 
         <td><div class="cp_ipcheck">
             <div class="box">
-              <input type="checkbox" id="a_ch1" checked="">
+              <input type="checkbox" id="a_ch1">
               <label for="a_ch1">起業をしたい</label>
               <input type="checkbox" id="a_ch2">
               <label for="a_ch2">チーズ系企業に就職・転職したい</label>
@@ -268,7 +275,7 @@
         </div></td>
       </tr>
       <tr>
-        <th>その他</th>
+        <th>詳細</th>
         <td>
             <div class="cp_iptxt">
                 <label class="ef">
@@ -284,12 +291,14 @@
     <h1>送信</h1>
   </a>
 </div>
-
+<footer class="footer">
 <div class="copy">
     <p>copyrights 2016 Cheeese Academy Tokyo All RIghts Reserved.</p>
   </div>
+</footer>
+  <!-- ここから上にコードを書く -->
+  <!-- この中に記述していく -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/main.js"></script>
 </body>
-
 </html>
