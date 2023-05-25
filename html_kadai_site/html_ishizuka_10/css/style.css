@@ -1,5 +1,4 @@
 /* ここから下に記載していく */
-body{cursor:url(../img/cutter.png),auto}
 .ue{
   /* background-color: #aaa; */
   height: 100px;
@@ -76,16 +75,17 @@ body{cursor:url(../img/cutter.png),auto}
 }
 .setsu{
   /* background-color: red; */
-  height: 400px;
+  height: 500px;
   width: 1300px;
   margin:0 auto;
 }
 .setsu h1{
   font-size: 24px;
-  color:gold;
+  color:#ffd61a;
   font-weight: 900;
   text-align: center;
   line-height: 60px;
+  padding-top: 30px;
 }
 .setsu h2{
   font-size:18px;
@@ -96,6 +96,7 @@ body{cursor:url(../img/cutter.png),auto}
   font-size:16px;  
   text-align: center;
   line-height: 60px;
+  padding-top: 30px;
 }
 .setsu p{
   text-align: center;
@@ -103,7 +104,9 @@ body{cursor:url(../img/cutter.png),auto}
 }
 .setsu h4{
   text-align: center;
-  line-height: 80px;
+  line-height: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .pic4{
@@ -120,7 +123,7 @@ body{cursor:url(../img/cutter.png),auto}
 	height: 250px;
 	overflow: hidden;
 	margin: 2em auto;
-	border: 10px solid #ffffff;
+	border: 10px solid #cacaca;
 	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
 }
 .cp_slide_item {
@@ -211,7 +214,7 @@ body{cursor:url(../img/cutter.png),auto}
   font-size: 30px;
   margin-top: 30px;
   line-height: 60px;
-  color:gold;
+  color:#ffd61a;
   font-weight: 900;
   
 }
@@ -258,7 +261,7 @@ body{cursor:url(../img/cutter.png),auto}
   line-height: 30px;
 }
 .picsetu2{
-  background-color:black;
+  background-color:#222222;
   height: 400px;
   width: 1300px;
   margin:0 auto;
@@ -333,12 +336,7 @@ body{cursor:url(../img/cutter.png),auto}
   padding-right: 150px;
   line-height: 30px;
 }
-.youtube{
-  padding-top: 40px;
-  width: 1300px;
-  margin:0 auto;
-  text-align: center;
-}
+
 /* ニュース*/
 .nnn{
   /* background-color:crimson; */
@@ -348,7 +346,7 @@ body{cursor:url(../img/cutter.png),auto}
 }
 .nnn h1{
   text-align: center;
-  color: gold;
+  color:#ffd61a;
   font-weight: 900;
   font-size: 30px;
   line-height: 30px;
@@ -362,12 +360,13 @@ body{cursor:url(../img/cutter.png),auto}
 /* 写真３まい */
 .sha{
   /* background-color:chartreuse; */
-  height: 300px;
+  height: 360px;
   width: 960px;
   margin:0 auto;
-  display: flex;
+  display: flex;  
   justify-content:space-around;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 .sha1{
   /* background-color:darkolivegreen; */
@@ -380,20 +379,24 @@ body{cursor:url(../img/cutter.png),auto}
   color: blue; /* 文字色を変える */
   /* background-color:#eee; 背景色を変える */
 }
+.sha1 h1{
+  margin-top: 30px;
+  text-align: left;
+}
 .sha1 p{
-  text-align: center;
+  margin-top: 24px;
+  text-align: left;
 }
 .sha1 img:hover {
   opacity: 0.5;
 }
-
 .more{
-  margin-top: 30px;
-  background-color:gold;
+  margin-top: 60px;
+  background-color:#ffd61a;
   width: 300px;
   margin:0 auto;
   height: 60px;
-  margin-bottom: 20px;
+  margin-bottom:60px;
   text-decoration:none;
 }
 .more:hover{
@@ -411,26 +414,30 @@ body{cursor:url(../img/cutter.png),auto}
   background-color:#eee;
   width: 1300px;
   margin:0 auto;
-  height: 500px;
+  height: 800px;
 }
 .acac h1{
   text-align: center;
   font-size: 30px;
-  padding-top: 30px;
-  color: gold;
+  padding-top: 60px;
+  color: #ffd61a;
   font-weight: 900;
 }
 .acac p{
   text-align: center;
   line-height: 60px;
+  margin-bottom: 30px;
 }
 .chizu{
   width:1300px;
   margin:0 auto;
   height: 350px;
   display: flex;
-  justify-content: space-around;
+  justify-content: normal;
   /* background-color:red; */
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 .chizu img{
   width:auto;
@@ -443,30 +450,30 @@ body{cursor:url(../img/cutter.png),auto}
 .chizusetu h2{
   text-align: center;
   font-size: 20px;
-  padding-top: 10px;
+  padding-top: 60px;
 }
 .chizu p{
   padding-top: 30px;
   text-align: center;
-  line-height: 50px;
+  line-height: 15px;
 }
-
-
-
-
-
 .contact1 h1{
   text-align: center;
   font-size: 30px;
-  padding-top: 80px;
-  color: gold;
+  padding-top: 60px;
+  color:#ffd61a;
   font-weight: 900;
 }
 .contact1 h2{
   text-align: center;
   line-height: 40px;
+  padding-top: 30px;
 }
 .contact1 h3{
+  text-align: center;
+  padding-top: 60px;
+}
+.contact1 h4{
   text-align: center;
   padding-top: 30px;
 }
@@ -475,28 +482,29 @@ body{cursor:url(../img/cutter.png),auto}
   line-height: 20px;
 }
 .hyou{
-  width: 240px;
+  width: 800px;
   margin:0 auto;
   /* background-color:palegoldenrod; */
+  padding-top: 70px;
 }
 table{
   text-align: center;
 }
 th{
   /* background-color: red; */
-  border-bottom:black 1px solid;
-  border-top:black 1px solid;
+  border-bottom:#222222 1px solid;
+  border-top:#222222 1px solid;
   /* padding:10px; */
   /* height: 30px; */
-  width: 200px;
+  width: 500px;
 }
 td{
   /* background-color: pink; */
-  border-bottom:black 1px solid;
-  border-left:black 1px solid;
-  border-top:black 1px solid;
+  border-bottom:#222222 1px solid;
+  border-left:#222222 1px solid;
+  border-top:#222222 1px solid;
   /* height: 30px; */
-  width: 270px;
+  width:500px;
 }
 .cp_iptxt {
 	position: relative;
@@ -504,20 +512,20 @@ td{
 	margin: 15px 3%;
 }
 .cp_iptxt input[type='text'] {
-	font: 16px/64px sans-serif;
+	font: 10px/20px sans-serif;
 	/* box-sizing: border-box; */
 	width: 100%;
 	/* padding: 0.3em; */
 	transition: 0.3s;
 	letter-spacing: 1px;
-	color: black;
-	border: 1px solid gray;
+	color: #222222;
+	border: 1px solid #cacaca;
 	border-radius: 4px;
 }
 .ef input[type='text']:focus {
-	border: 1px solid gold;
+	border: 1px solid #ffd61a;
 	outline: none;
-	box-shadow: 0 0 5px 1px yellow (218,60,65, .5);
+	box-shadow: 0 0 5px 1px #ffd61a (218,60,65, .5);
 }
 .cp_ipselect {
 	overflow: hidden;
@@ -545,9 +553,9 @@ td{
 }
 .cp_ipselect.cp_sl01 {
 	/* position: relative; */
-	border: 1px solid #bbbbbb;
+	border: 1px solid #cacaca;
 	border-radius: 2px;
-  background: #ffffff;
+  background: #fff;
   height: 30px;
 }
 .cp_ipselect.cp_sl01::before {
@@ -560,12 +568,12 @@ td{
 	content: '';
 	border-left: 3px solid transparent;
 	border-right: 6px solid transparent;
-	border-top: 6px solid #666666;
+	border-top: 6px solid #cacaca;
 	pointer-events: none;
 }
 .cp_ipselect.cp_sl01 select {
 	padding: 8px 38px 8px 8px;
-  color: #666666;
+  color: #cacaca;
 }
 .cp_ipcheck {
 	-webkit-box-sizing: border-box;
@@ -579,9 +587,9 @@ td{
 	width: 90%;
 	/* margin: 2em auto; */
 	text-align: left;
-	border: 1px solid white;
-	border-radius: 24px;
-	background: #ffffff;
+	border: 1px solid "cacaca";
+	border-radius: 3px;
+	background: #fff;
 }
 .cp_ipcheck input[type=checkbox] {
 	display: none;
@@ -590,14 +598,14 @@ td{
 .cp_ipcheck label:hover,
 .cp_ipcheck label:active,
 .cp_ipcheck input:checked + label {
-	color:gold;
+	color:#ffd61a;
 }
 .cp_ipcheck label:focus:before,
 .cp_ipcheck label:hover:before,
 .cp_ipcheck label:active:before,
 .cp_ipcheck input:checked + label:before {
-	border-color:gold;
-	background: #ffffff;
+	border-color:#ffd61a;
+	background: #fff;
 }
 .cp_ipcheck label {
 	font-size: 1em;
@@ -612,7 +620,7 @@ td{
 	        transition: all 0.15s ease;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	background: #ffffff;
+	background: #fff;
 }
 .cp_ipcheck label:before {
 	position: absolute;
@@ -621,17 +629,17 @@ td{
 	width: 10px;
 	height: 10px;
 	content: '';
-	border: 0.2em solid #cccccc;
+	border: 0.2em solid #cacaca;
 }
 .cp_ipcheck input:checked + label:before {
-	border-color: gold;
-	background: gold;
+	border-color: #ffd61a;
+	background:#ffd61a;
 }
 .soshin{
   width: 300px;
   margin:0 auto;
   height: 60px;
-  background-color:gold;
+  background-color:#ffd61a;
   margin-top: 30px;
 }
 .soshin:hover{
@@ -649,7 +657,7 @@ td{
   margin:0 auto;
   height: 50px;
   background-color: #707070;
-  margin-top: 30px;
+  margin-top: 140px;
 }
 .copy p{
   color: white;
